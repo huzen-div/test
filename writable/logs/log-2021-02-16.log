@@ -1,0 +1,84 @@
+CRITICAL - 2021-02-16 11:18:51 --> Class 'App\Controllers\Picqer\Barcode\BarcodeGeneratorHTML' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->print_barcode('8')
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-16 11:20:05 --> Class 'Picqer\Barcode\Types\TypeCode128' not found
+#0 /var/www/html/app/ThirdParty/php-barcode-generator/src/BarcodeGenerator.php(99): Picqer\Barcode\BarcodeGenerator->createDataBuilderForType('C128')
+#1 /var/www/html/app/ThirdParty/php-barcode-generator/src/BarcodeGeneratorHTML.php(19): Picqer\Barcode\BarcodeGenerator->getBarcodeData('000001', 'C128')
+#2 /var/www/html/app/Controllers/Supplies.php(1368): Picqer\Barcode\BarcodeGeneratorHTML->getBarcode('000001', 'C128', 2, 50)
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->print_barcode('8')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-16 11:21:35 --> Class 'Picqer\Barcode\Types\TypeCode128' not found
+#0 /var/www/html/app/ThirdParty/php-barcode-generator/src/BarcodeGenerator.php(99): Picqer\Barcode\BarcodeGenerator->createDataBuilderForType('C128')
+#1 /var/www/html/app/ThirdParty/php-barcode-generator/src/BarcodeGeneratorHTML.php(19): Picqer\Barcode\BarcodeGenerator->getBarcodeData('000001', 'C128')
+#2 /var/www/html/app/Controllers/Supplies.php(1368): Picqer\Barcode\BarcodeGeneratorHTML->getBarcode('000001', 'C128', 2, 50)
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->print_barcode('8')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-16 11:22:51 --> Class 'Picqer\Barcode\Types\TypeCode128' not found
+#0 /var/www/html/app/ThirdParty/php-barcode-generator/src/BarcodeGenerator.php(99): Picqer\Barcode\BarcodeGenerator->createDataBuilderForType('C128')
+#1 /var/www/html/app/ThirdParty/php-barcode-generator/src/BarcodeGeneratorHTML.php(19): Picqer\Barcode\BarcodeGenerator->getBarcodeData('000001', 'C128')
+#2 /var/www/html/app/Controllers/Supplies.php(1368): Picqer\Barcode\BarcodeGeneratorHTML->getBarcode('000001', 'C128', 2, 50)
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->print_barcode('8')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-16 11:39:48 --> Class 'Picqer\Barcode\Types\TypeCode128' not found
+#0 /var/www/html/app/ThirdParty/php-barcode-generator/src/BarcodeGenerator.php(99): Picqer\Barcode\BarcodeGenerator->createDataBuilderForType('C128')
+#1 /var/www/html/app/ThirdParty/php-barcode-generator/src/BarcodeGeneratorHTML.php(19): Picqer\Barcode\BarcodeGenerator->getBarcodeData('000001', 'C128')
+#2 /var/www/html/app/Controllers/Supplies.php(1368): Picqer\Barcode\BarcodeGeneratorHTML->getBarcode('000001', 'C128', 2, 50)
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->print_barcode('8')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-16 12:08:39 --> Class 'Picqer\Barcode\Types\TypeCode128' not found
+#0 /var/www/html/app/ThirdParty/php-barcode-generator/src/BarcodeGenerator.php(99): Picqer\Barcode\BarcodeGenerator->createDataBuilderForType('C128')
+#1 /var/www/html/app/ThirdParty/php-barcode-generator/src/BarcodeGeneratorHTML.php(19): Picqer\Barcode\BarcodeGenerator->getBarcodeData('000001', 'C128')
+#2 /var/www/html/app/Controllers/Supplies.php(1368): Picqer\Barcode\BarcodeGeneratorHTML->getBarcode('000001', 'C128', 2, 50)
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->print_barcode('8')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-16 15:36:19 --> Class 'Picqer\Barcode\Types\TypeCode128' not found
+#0 /var/www/html/app/ThirdParty/php-barcode-generator/src/BarcodeGenerator.php(99): Picqer\Barcode\BarcodeGenerator->createDataBuilderForType('C128')
+#1 /var/www/html/app/ThirdParty/php-barcode-generator/src/BarcodeGeneratorHTML.php(19): Picqer\Barcode\BarcodeGenerator->getBarcodeData('000001', 'C128')
+#2 /var/www/html/app/Controllers/Supplies.php(1374): Picqer\Barcode\BarcodeGeneratorHTML->getBarcode('000001', 'C128', 2, 50)
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->print_barcode('8')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-16 16:03:49 --> Class 'App\Controllers\Picqer\Barcode\BarcodeGeneratorHTML' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->print_barcode('8')
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-16 22:52:25 --> Class 'App\Controllers\Picqer\Barcode\BarcodeGeneratorHTML' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->print_barcode('8')
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-16 23:06:29 --> Class 'App\Controllers\Picqer\Barcode\BarcodeGeneratorHTML' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->print_barcode('4')
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-16 23:39:28 --> Class 'App\Controllers\Picqer\Barcode\BarcodeGeneratorHTML' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->print_barcode('8')
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,91 @@
+CRITICAL - 2020-11-04 00:03:12 --> Invalid argument supplied for foreach()
+#0 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Account.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\kanoot...', 327, Array)
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Account->getfancytree()
+#2 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#6 {main}
+CRITICAL - 2020-11-04 00:06:23 --> Invalid argument supplied for foreach()
+#0 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Account.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\kanoot...', 329, Array)
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Account->getfancytree()
+#2 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#6 {main}
+CRITICAL - 2020-11-04 21:31:54 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->actions_receiving_money()
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#2 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#5 {main}
+CRITICAL - 2020-11-04 23:13:10 --> CodeIgniter\Router\Router::main(): Failed opening required 'C:\Users\kanoot\Desktop\ณกส\public\vendor/autoload.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-04 23:13:24 --> CodeIgniter\Router\Router::main(): Failed opening required 'C:\Users\kanoot\Desktop\ณกส\public\vendor/autoload.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-04 23:13:25 --> CodeIgniter\Router\Router::main(): Failed opening required 'C:\Users\kanoot\Desktop\ณกส\public\vendor/autoload.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-04 23:13:30 --> CodeIgniter\Router\Router::main(): Failed opening required 'C:\Users\kanoot\Desktop\ณกส\public\vendor/autoload.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-04 23:13:32 --> CodeIgniter\Router\Router::main(): Failed opening required 'C:\Users\kanoot\Desktop\ณกส\public\vendor/autoload.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-04 23:13:33 --> CodeIgniter\Router\Router::main(): Failed opening required 'C:\Users\kanoot\Desktop\ณกส\public\vendor/autoload.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-04 23:13:33 --> CodeIgniter\Router\Router::main(): Failed opening required 'C:\Users\kanoot\Desktop\ณกส\public\vendor/autoload.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-04 23:14:19 --> CodeIgniter\Router\Router::main(): Failed opening required 'vendor/autoload.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-04 23:54:35 --> fputcsv(): supplied resource is not a valid stream resource
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv(): supp...', 'C:\\Users\\kanoot...', 34, Array)
+#1 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php(34): fputcsv(Resource id #166, Array)
+#2 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->actions_receiving_money()
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#7 {main}
+CRITICAL - 2020-11-04 23:55:12 --> fputcsv(): supplied resource is not a valid stream resource
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv(): supp...', 'C:\\Users\\kanoot...', 34, Array)
+#1 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php(34): fputcsv(Resource id #166, Array)
+#2 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->actions_receiving_money()
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#7 {main}
+CRITICAL - 2020-11-04 23:55:47 --> Invalid argument supplied for foreach()
+#0 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\kanoot...', 33, Array)
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->actions_receiving_money()
+#2 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#6 {main}
+CRITICAL - 2020-11-04 23:57:08 --> fputcsv(): supplied resource is not a valid stream resource
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv(): supp...', 'C:\\Users\\kanoot...', 34, Array)
+#1 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php(34): fputcsv(Resource id #166, Array)
+#2 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->actions_receiving_money()
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#7 {main}
+CRITICAL - 2020-11-04 23:57:17 --> fputcsv(): supplied resource is not a valid stream resource
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv(): supp...', 'C:\\Users\\kanoot...', 34, Array)
+#1 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php(34): fputcsv(Resource id #166, Array)
+#2 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->actions_receiving_money()
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#7 {main}

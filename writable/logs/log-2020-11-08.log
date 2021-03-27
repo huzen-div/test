@@ -1,0 +1,246 @@
+CRITICAL - 2020-11-08 20:40:17 --> Call to undefined function admin_url()
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('fn/view_receivi...', Array, true)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php(74): view('fn/view_receivi...')
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->view_receiving_money('1')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#8 {main}
+CRITICAL - 2020-11-08 21:00:50 --> Illegal string offset 'id'
+#0 C:\Users\kanoot\Desktop\ณกส\app\Views\fn\view_receiving_money.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\Users\\kanoot...', 20, Array)
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\Users\\kanoot...')
+#2 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('fn/view_receivi...', Array, true)
+#3 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php(74): view('fn/view_receivi...')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->view_receiving_money('1')
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#6 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#9 {main}
+CRITICAL - 2020-11-08 21:30:10 --> Invalid file: fn/view_adddebt.php
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/view_adddebt...')
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('fn/view_adddebt', Array, true)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php(241): view('fn/view_adddebt')
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->view_adddebt('1')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#8 {main}
+CRITICAL - 2020-11-08 21:36:33 --> Invalid file: fn/view_reducedebt.php
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/view_reduced...')
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('fn/view_reduced...', Array, true)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php(323): view('fn/view_reduced...')
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->view_reducedebt('2')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#8 {main}
+CRITICAL - 2020-11-08 22:39:08 --> Invalid file: fn/view_acceptpayment.php
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/view_acceptp...')
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('fn/view_acceptp...', Array, true)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php(1010): view('fn/view_acceptp...')
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->view_acceptpayment('1')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#8 {main}
+CRITICAL - 2020-11-08 22:51:52 --> Invalid file: fn/view_overdue.php
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/view_overdue...')
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('fn/view_overdue', Array, true)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php(481): view('fn/view_overdue')
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->view_overdue('1')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#8 {main}
+CRITICAL - 2020-11-08 23:05:14 --> Invalid file: fn/view_billing.php
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/view_billing...')
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('fn/view_billing', Array, true)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php(565): view('fn/view_billing')
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->view_billing('1')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#8 {main}
+CRITICAL - 2020-11-08 23:14:02 --> Invalid file: fn/view_payment.php
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/view_payment...')
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('fn/view_payment', Array, true)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php(733): view('fn/view_payment')
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->view_payment('1')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#8 {main}
+CRITICAL - 2020-11-08 23:18:06 --> Invalid file: fn/view_pettycash.php
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/view_pettyca...')
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('fn/view_pettyca...', Array, true)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php(886): view('fn/view_pettyca...')
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->view_pettycash('1')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#8 {main}
+CRITICAL - 2020-11-08 23:21:20 --> Invalid file: fn/view_check.php
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/view_check.p...')
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('fn/view_check', Array, true)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php(817): view('fn/view_check')
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->view_check('1')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#8 {main}
+CRITICAL - 2020-11-08 23:27:07 --> Invalid file: fn/view_checkpay.php
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/view_checkpa...')
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('fn/view_checkpa...', Array, true)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php(977): view('fn/view_checkpa...')
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->view_checkpay('1')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#8 {main}
+CRITICAL - 2020-11-08 23:36:03 --> Invalid file: fn/view_transfer.php
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/view_transfe...')
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('fn/view_transfe...', Array, true)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php(1061): view('fn/view_transfe...')
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->view_transfer('1')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#8 {main}
+CRITICAL - 2020-11-08 23:44:35 --> Invalid file: fn/view_generaljournal.php
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/view_general...')
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('fn/view_general...', Array, true)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Account.php(73): view('fn/view_general...')
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Account->view_generaljournal('8')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#8 {main}
+CRITICAL - 2020-11-08 23:44:42 --> Invalid file: fn/view_generaljournal.php
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/view_general...')
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('fn/view_general...', Array, true)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Account.php(73): view('fn/view_general...')
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Account->view_generaljournal('8')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#8 {main}
+CRITICAL - 2020-11-08 23:45:00 --> You must set the database table to be used with your query.
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Account.php(70): CodeIgniter\Model->__call('getTransferByID', Array)
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Account->view_generaljournal('8')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#8 {main}
+CRITICAL - 2020-11-08 23:45:13 --> Invalid file: fn/view_generaljournal.php
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/view_general...')
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('fn/view_general...', Array, true)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Account.php(73): view('fn/view_general...')
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Account->view_generaljournal('8')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#8 {main}
+CRITICAL - 2020-11-08 23:45:29 --> Invalid file: fn/view_generaljournal.php
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/view_general...')
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('fn/view_general...', Array, true)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Account.php(73): view('fn/view_general...')
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Account->view_generaljournal('8')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#8 {main}
+CRITICAL - 2020-11-08 23:45:35 --> Invalid file: fn/view_generaljournal.php
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/view_general...')
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('fn/view_general...', Array, true)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Account.php(73): view('fn/view_general...')
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Account->view_generaljournal('8')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#8 {main}
+CRITICAL - 2020-11-08 23:45:38 --> Invalid file: fn/view_generaljournal.php
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/view_general...')
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('fn/view_general...', Array, true)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Account.php(73): view('fn/view_general...')
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Account->view_generaljournal('9')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#8 {main}
+CRITICAL - 2020-11-08 23:45:40 --> Invalid file: fn/view_generaljournal.php
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/view_general...')
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('fn/view_general...', Array, true)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Account.php(73): view('fn/view_general...')
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Account->view_generaljournal('10')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#8 {main}
+CRITICAL - 2020-11-08 23:45:42 --> Invalid file: fn/view_generaljournal.php
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/view_general...')
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('fn/view_general...', Array, true)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Account.php(73): view('fn/view_general...')
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Account->view_generaljournal('11')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#8 {main}
+CRITICAL - 2020-11-08 23:52:49 --> Invalid file: ac/view_receiptjournal.php
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ac/view_receipt...')
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('ac/view_receipt...', Array, true)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Account.php(229): view('ac/view_receipt...')
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Account->view_receiptjournal('1')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#8 {main}
+CRITICAL - 2020-11-08 23:54:22 --> Cannot redeclare App\Controllers\Account::view_receiptjournal()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-08 23:54:28 --> Cannot redeclare App\Controllers\Account::view_receiptjournal()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-08 23:54:41 --> Cannot redeclare App\Controllers\Account::view_receiptjournal()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-08 23:54:41 --> Cannot redeclare App\Controllers\Account::view_receiptjournal()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-08 23:54:41 --> Cannot redeclare App\Controllers\Account::view_receiptjournal()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-08 23:56:41 --> Invalid file: ac/view_purchasejournal.php
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ac/view_purchas...')
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('ac/view_purchas...', Array, true)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Account.php(385): view('ac/view_purchas...')
+#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Account->view_purchasejournal('1')
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#8 {main}

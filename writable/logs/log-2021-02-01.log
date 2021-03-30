@@ -1,0 +1,47 @@
+CRITICAL - 2021-02-01 10:18:06 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(408): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Finance.php(3597): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->statement()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-01 10:47:03 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(501): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Finance.php(2107): App\Models\finance_model->getCheck()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->list_check()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-01 10:47:21 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(501): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Finance.php(2107): App\Models\finance_model->getCheck()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->list_check()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-01 10:47:23 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(501): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Finance.php(2107): App\Models\finance_model->getCheck()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->list_check()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-01 14:42:38 --> Object of class CodeIgniter\Database\Postgre\Builder could not be converted to string
+#0 /var/www/html/app/Controllers/Home.php(36): App\Models\finance_model->getPayoffDebtByDate(NULL, NULL, '4525')
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

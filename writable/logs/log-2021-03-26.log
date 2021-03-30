@@ -1,0 +1,1263 @@
+CRITICAL - 2021-03-26 10:36:04 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Hire.php on line 826
+#0 /var/www/html/app/Controllers/Hire.php(826): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Hire->report_repair_pdf('4')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hire))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 10:59:17 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 3531
+#0 /var/www/html/app/Controllers/Finance.php(3531): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('12')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 12:40:33 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 3465
+#0 /var/www/html/app/Controllers/Finance.php(3465): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_acceptpaymentpdf('657')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 12:49:32 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 3561
+#0 /var/www/html/app/Controllers/Finance.php(3561): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_depositpdf('2')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 13:33:42 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::query()
+#0 /var/www/html/app/Models/noti_model.php(38): App\Models\noti_model->get_data_table('sp_borrow')
+#1 /var/www/html/app/Views/header.php(171): App\Models\noti_model->get_noti()
+#2 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/a...')
+#3 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('header', Array, true)
+#4 /var/www/html/app/Controllers/Supplies.php(2438): view('header', Array)
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->transfer()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-26 13:35:29 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::query()
+#0 /var/www/html/app/Models/noti_model.php(36): App\Models\noti_model->get_data_table('sp_borrow')
+#1 /var/www/html/app/Views/header.php(171): App\Models\noti_model->get_noti()
+#2 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/a...')
+#3 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('header', Array, true)
+#4 /var/www/html/app/Controllers/Supplies.php(2438): view('header', Array)
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->transfer()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-26 13:39:49 --> Call to a member function prefixTable() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->test()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 13:40:32 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 4017
+#0 /var/www/html/app/Controllers/Finance.php(4017): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_print_check_paypdf('9')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 13:48:26 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::query()
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->test()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 13:51:07 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::select()
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->test()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 13:51:08 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::select()
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->test()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 13:51:29 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::select()
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->test()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 13:52:07 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::select()
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->test()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 13:52:25 --> Call to undefined method CodeIgniter\Database\Postgre\Result::get()
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->test()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 13:54:35 --> Argument 1 passed to CodeIgniter\Database\BaseConnection::query() must be of the type string, object given, called in /var/www/html/app/Controllers/Home.php on line 73
+#0 /var/www/html/app/Controllers/Home.php(73): CodeIgniter\Database\BaseConnection->query(Object(CodeIgniter\Database\Postgre\Result))
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->test()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 13:55:18 --> Call to undefined method CodeIgniter\Database\Postgre\Result::result()
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->test()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 13:55:40 --> Call to undefined method CodeIgniter\Database\Postgre\Result::result()
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->test()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 13:58:54 --> Call to undefined method CodeIgniter\Database\Postgre\Result::result_array()
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->test()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 14:00:59 --> Call to undefined method CodeIgniter\Database\Postgre\Result::result_array()
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->test()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 14:01:53 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::query()
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->test()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 14:02:24 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::query()
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->test()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 14:23:52 --> Invalid file: fn/report_registration_pdf.php
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/report_regis...')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('fn/report_regis...', Array, true)
+#2 /var/www/html/app/Controllers/Supplies.php(2302): view('fn/report_regis...', Array)
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_registration_pdf('11')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-26 14:25:18 --> Invalid file: fn/report_registration_pdf.php
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/report_regis...')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('fn/report_regis...', Array, true)
+#2 /var/www/html/app/Controllers/Supplies.php(2302): view('fn/report_regis...', Array)
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_registration_pdf('11')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-26 14:25:21 --> Invalid file: fn/report_registration_pdf.php
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/report_regis...')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('fn/report_regis...', Array, true)
+#2 /var/www/html/app/Controllers/Supplies.php(2302): view('fn/report_regis...', Array)
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_registration_pdf('11')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-26 14:25:55 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2306
+#0 /var/www/html/app/Controllers/Supplies.php(2306): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_registration_pdf('11')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 14:26:11 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2306
+#0 /var/www/html/app/Controllers/Supplies.php(2306): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_registration_pdf('11')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 14:26:28 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2306
+#0 /var/www/html/app/Controllers/Supplies.php(2306): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_registration_pdf('11')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 14:30:25 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2306
+#0 /var/www/html/app/Controllers/Supplies.php(2306): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_registration_pdf('11')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 14:31:16 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2306
+#0 /var/www/html/app/Controllers/Supplies.php(2306): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_registration_pdf('11')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 15:19:01 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 3591
+#0 /var/www/html/app/Controllers/Finance.php(3591): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_withdrawpdf('5')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 15:49:22 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 3846
+#0 /var/www/html/app/Controllers/Finance.php(3846): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_import_billing_pdf('648')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 15:56:05 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 3050
+#0 /var/www/html/app/Controllers/Finance.php(3050): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->report_checkpay_pdf('6')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 16:00:37 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 1982
+#0 /var/www/html/app/Controllers/Finance.php(1982): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->report_billing_pdf('2')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 16:02:56 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2281
+#0 /var/www/html/app/Controllers/Finance.php(2281): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->report_payoffdebt_pdf('9')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 16:06:22 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 1628
+#0 /var/www/html/app/Controllers/Finance.php(1628): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->report_overdue_pdf('1')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 16:17:27 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/var/www/html/a...', 56, Array)
+#1 /var/www/html/app/Controllers/Notifications.php(56): count('["33","34"]')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Notifications->delete()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifications))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-26 16:18:05 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/var/www/html/a...', 56, Array)
+#1 /var/www/html/app/Controllers/Notifications.php(56): count('["33","34"]')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Notifications->delete()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifications))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-26 16:20:30 --> Use of undefined constant JSON - assumed 'JSON' (this will throw an Error in a future version of PHP)
+#0 /var/www/html/app/Controllers/Notifications.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/var/www/html/a...', 55, Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Notifications->delete()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifications))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 16:56:51 --> syntax error, unexpected ';', expecting ')'
+#0 /var/www/html/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('hire/edit_repai...')
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('hire/edit_repai...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 17:00:45 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Hire.php on line 826
+#0 /var/www/html/app/Controllers/Hire.php(826): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Hire->report_repair_pdf('4')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hire))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 17:01:44 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2306
+#0 /var/www/html/app/Controllers/Supplies.php(2306): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_registration_pdf('11')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 17:09:39 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/var/www/html/a...', 85, Array)
+#1 /var/www/html/app/Controllers/Notifications.php(85): count('33')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Notifications->create_read()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifications))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-26 17:10:02 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/var/www/html/a...', 85, Array)
+#1 /var/www/html/app/Controllers/Notifications.php(85): count('34')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Notifications->create_read()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifications))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-26 19:46:35 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/var/www/html/a...', 59, Array)
+#1 /var/www/html/app/Controllers/Notifications.php(59): count(33)
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Notifications->delete()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifications))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-26 20:06:24 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::getResultArray()
+#0 /var/www/html/app/Models/noti_model.php(43): App\Models\noti_model->get_data_table('sp_borrow', true)
+#1 /var/www/html/app/Views/header.php(171): App\Models\noti_model->get_noti()
+#2 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/a...')
+#3 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('header', Array, true)
+#4 /var/www/html/app/Controllers/Supplies.php(1419): view('header', Array)
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->view_borrow('33')
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-26 20:50:04 --> Call to a member function sumPayoffDebt() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Notifications->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifications))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 20:52:37 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2306
+#0 /var/www/html/app/Controllers/Supplies.php(2306): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_registration_pdf('11')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:02:53 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2306
+#0 /var/www/html/app/Controllers/Supplies.php(2306): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_registration_pdf('11')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:03:20 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2306
+#0 /var/www/html/app/Controllers/Supplies.php(2306): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_registration_pdf('11')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:10:00 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2306
+#0 /var/www/html/app/Controllers/Supplies.php(2306): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_registration_pdf('11')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:10:59 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(1445): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(946): App\Models\supplie_model->getWarehouse()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->receive_supplies()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 21:10:59 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2306
+#0 /var/www/html/app/Controllers/Supplies.php(2306): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_registration_pdf('11')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:11:09 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(1445): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(946): App\Models\supplie_model->getWarehouse()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->receive_supplies()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 21:11:12 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2306
+#0 /var/www/html/app/Controllers/Supplies.php(2306): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_registration_pdf('11')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:11:25 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2306
+#0 /var/www/html/app/Controllers/Supplies.php(2306): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_registration_pdf('11')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:11:25 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(1445): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(946): App\Models\supplie_model->getWarehouse()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->receive_supplies()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 21:12:32 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2306
+#0 /var/www/html/app/Controllers/Supplies.php(2306): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_registration_pdf('11')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:21:16 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2324
+#0 /var/www/html/app/Controllers/Supplies.php(2324): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_list_registration_depreciation('11')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:22:49 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2324
+#0 /var/www/html/app/Controllers/Supplies.php(2324): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_list_registration_depreciation('11')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:28:10 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2324
+#0 /var/www/html/app/Controllers/Supplies.php(2324): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_list_registration_depreciation('11')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:31:55 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2324
+#0 /var/www/html/app/Controllers/Supplies.php(2324): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_list_registration_depreciation('11')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:32:03 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2324
+#0 /var/www/html/app/Controllers/Supplies.php(2324): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_list_registration_depreciation('11', '11', '11', '11', '11')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:34:45 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2324
+#0 /var/www/html/app/Controllers/Supplies.php(2324): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_list_registration_depreciation('11', '11', '11', '11', '11')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:35:02 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2324
+#0 /var/www/html/app/Controllers/Supplies.php(2324): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_list_registration_depreciation('11', '3107-04-01', '32473953', '32473953', '\xE0\xB9\x82\xE0\xB8\x95\xE0\xB9\x8A\xE0\xB8\xB0\xE0\xB8\x97...', '68888', '40000')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:35:32 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2324
+#0 /var/www/html/app/Controllers/Supplies.php(2324): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_list_registration_depreciation('11', '3107-04-01', '32473953', '32473953', '\xE0\xB9\x82\xE0\xB8\x95\xE0\xB9\x8A\xE0\xB8\xB0\xE0\xB8\x97...', '68888', '40000')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:49:00 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2324
+#0 /var/www/html/app/Controllers/Supplies.php(2324): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_list_registration_depreciation('11', '3107-04-01', '32473953', '32473953', '\xE0\xB9\x82\xE0\xB8\x95\xE0\xB9\x8A\xE0\xB8\xB0\xE0\xB8\x97...', '68888', '40000', '24000', '32109.289617486...', '40000', '40000', '40000')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:49:27 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2324
+#0 /var/www/html/app/Controllers/Supplies.php(2324): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_list_registration_depreciation('11', '3107-04-01', '32473953', '32473953', '\xE0\xB9\x82\xE0\xB8\x95\xE0\xB9\x8A\xE0\xB8\xB0\xE0\xB8\x97...', '68888', '40000', '24000', '32109.289617486...', '40000', '40000', '40000')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:49:34 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2324
+#0 /var/www/html/app/Controllers/Supplies.php(2324): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_list_registration_depreciation('11', '3107-04-01', '32473953', '32473953', '\xE0\xB9\x82\xE0\xB8\x95\xE0\xB9\x8A\xE0\xB8\xB0\xE0\xB8\x97...', '68888', '40000', '24000', '32109.289617486...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:51:27 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2324
+#0 /var/www/html/app/Controllers/Supplies.php(2324): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_list_registration_depreciation('11', '3107-04-01', '32473953', '32473953', '\xE0\xB9\x82\xE0\xB8\x95\xE0\xB9\x8A\xE0\xB8\xB0\xE0\xB8\x97...', '68888', '40000', '24000', '32109.289617486...', '5 \xE0\xB8\x9B\xE0\xB8\xB5')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:53:27 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_prod...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(92): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(2282): App\Models\supplie_model->getProduct(NULL, NULL, NULL)
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->list_registration_transfer_repair()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 21:55:02 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_prod...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(92): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(2282): App\Models\supplie_model->getProduct(NULL, NULL, NULL)
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->list_registration_transfer_repair()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 21:55:11 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_prod...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(92): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(2282): App\Models\supplie_model->getProduct(NULL, NULL, NULL)
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->list_registration_transfer_repair()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 21:55:13 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2324
+#0 /var/www/html/app/Controllers/Supplies.php(2324): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_list_registration_depreciation('11', '3107-04-01', '32473953', '32473953', '\xE0\xB9\x82\xE0\xB8\x95\xE0\xB9\x8A\xE0\xB8\xB0\xE0\xB8\x97...', '68888', '40000')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:56:26 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(1565): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(72): App\Models\supplie_model->getPermissionsGroup()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->permissions()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 21:56:29 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(1565): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(72): App\Models\supplie_model->getPermissionsGroup()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->permissions()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 21:56:33 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 21:57:29 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 21:57:31 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2324
+#0 /var/www/html/app/Controllers/Supplies.php(2324): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_list_registration_depreciation('11', '3107-04-01', '32473953', '32473953', '\xE0\xB9\x82\xE0\xB8\x95\xE0\xB9\x8A\xE0\xB8\xB0\xE0\xB8\x97...', '68888', '40000')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:57:33 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 21:57:36 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_prod...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(92): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(2282): App\Models\supplie_model->getProduct(NULL, NULL, NULL)
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->list_registration_transfer_repair()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 21:57:38 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_prod...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(133): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(2298): App\Models\supplie_model->getProductByID('11')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_registration_pdf('11')
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 21:57:49 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 21:58:00 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2324
+#0 /var/www/html/app/Controllers/Supplies.php(2324): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_list_registration_depreciation('11', '3107-04-01', '32473953', '32473953', '\xE0\xB9\x82\xE0\xB8\x95\xE0\xB9\x8A\xE0\xB8\xB0\xE0\xB8\x97...', '68888', '40000')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:58:01 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 21:58:06 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 21:58:18 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 21:58:20 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 21:58:26 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2324
+#0 /var/www/html/app/Controllers/Supplies.php(2324): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_list_registration_depreciation('11', '3107-04-01', '32473953', '32473953', '\xE0\xB9\x82\xE0\xB8\x95\xE0\xB9\x8A\xE0\xB8\xB0\xE0\xB8\x97...', '68888', '40000')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 21:58:28 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 21:58:32 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 21:58:43 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 21:58:44 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:00:14 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:00:15 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:00:18 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:00:20 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2324
+#0 /var/www/html/app/Controllers/Supplies.php(2324): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_list_registration_depreciation('11', '3107-04-01', '32473953', '32473953', '\xE0\xB9\x82\xE0\xB8\x95\xE0\xB9\x8A\xE0\xB8\xB0\xE0\xB8\x97...', '68888', '40000')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 22:00:21 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:00:25 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:00:46 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:00:48 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:00:59 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:01:02 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:01:03 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:01:05 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:01:07 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2324
+#0 /var/www/html/app/Controllers/Supplies.php(2324): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_list_registration_depreciation('11', '3107-04-01', '32473953', '32473953', '\xE0\xB9\x82\xE0\xB8\x95\xE0\xB9\x8A\xE0\xB8\xB0\xE0\xB8\x97...', '68888', '40000')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 22:01:09 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_prod...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(92): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(2282): App\Models\supplie_model->getProduct(NULL, NULL, NULL)
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->list_registration_transfer_repair()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:01:10 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_prod...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(133): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(2298): App\Models\supplie_model->getProductByID('11')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_registration_pdf('11')
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:01:12 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2324
+#0 /var/www/html/app/Controllers/Supplies.php(2324): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_list_registration_depreciation('11')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 22:01:14 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_prod...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(133): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(2298): App\Models\supplie_model->getProductByID('11')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_registration_pdf('11')
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:01:36 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:01:37 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_prod...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(133): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(2298): App\Models\supplie_model->getProductByID('11')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_registration_pdf('11')
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:01:39 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:01:40 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:02:10 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:02:12 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:02:16 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:05:59 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:06:01 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2324
+#0 /var/www/html/app/Controllers/Supplies.php(2324): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_list_registration_depreciation('11', '3107-04-01', '32473953', '32473953', '\xE0\xB9\x82\xE0\xB8\x95\xE0\xB9\x8A\xE0\xB8\xB0\xE0\xB8\x97...', '68888', '40000')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 22:06:03 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:07:55 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_prod...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(92): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(2180): App\Models\supplie_model->getProduct(NULL, NULL, NULL)
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->list_registration_depreciation()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:07:56 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_prod...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(92): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(2180): App\Models\supplie_model->getProduct(NULL, NULL, NULL)
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->list_registration_depreciation()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:07:56 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_borr...', Array, false)
+#2 /var/www/html/app/Models/noti_model.php(37): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Models/noti_model.php(44): App\Models\noti_model->get_data_table('sp_borrow', true)
+#4 /var/www/html/app/Views/header.php(171): App\Models\noti_model->get_noti()
+#5 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/a...')
+#6 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('header', Array, true)
+#7 /var/www/html/app/Controllers/Supplies.php(1499): view('header', Array)
+#8 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->list_depreciation()
+#9 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#10 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-03-26 22:07:57 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_borr...', Array, false)
+#2 /var/www/html/app/Models/noti_model.php(37): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Models/noti_model.php(44): App\Models\noti_model->get_data_table('sp_borrow', true)
+#4 /var/www/html/app/Views/header.php(171): App\Models\noti_model->get_noti()
+#5 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/a...')
+#6 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('header', Array, true)
+#7 /var/www/html/app/Controllers/Supplies.php(1499): view('header', Array)
+#8 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->list_depreciation()
+#9 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#10 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-03-26 22:08:42 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_asse...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(1408): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(1855): App\Models\supplie_model->getAsset('6')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->view_asset_id('6')
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:08:49 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_asse...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(1408): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(1855): App\Models\supplie_model->getAsset('17')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->view_asset_id('17')
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:08:52 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_asse...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(1408): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(1855): App\Models\supplie_model->getAsset('6')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->view_asset_id('6')
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:08:54 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_asse...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(1408): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(1855): App\Models\supplie_model->getAsset('6')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->view_asset_id('6')
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:08:56 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_asse...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(1408): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(1855): App\Models\supplie_model->getAsset('6')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->view_asset_id('6')
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:08:58 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_asse...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(1408): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(1656): App\Models\supplie_model->getAsset(NULL, NULL)
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->depreciation()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:11:04 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_prod...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(92): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(2180): App\Models\supplie_model->getProduct(NULL, NULL, NULL)
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->list_registration_depreciation()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:12:08 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:14:01 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:16:14 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_prod...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(92): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(2180): App\Models\supplie_model->getProduct(NULL, NULL, NULL)
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->list_registration_depreciation()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:17:36 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_asse...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(1408): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(1656): App\Models\supplie_model->getAsset(NULL, NULL)
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->depreciation()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:17:43 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_asse...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(1408): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(1656): App\Models\supplie_model->getAsset(NULL, NULL)
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->depreciation()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:23:27 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_asse...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(1408): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(1656): App\Models\supplie_model->getAsset(NULL, NULL)
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->depreciation()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:23:31 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_asse...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(1408): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(1656): App\Models\supplie_model->getAsset(NULL, NULL)
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->depreciation()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:23:35 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_asse...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(1408): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(1656): App\Models\supplie_model->getAsset(NULL, NULL)
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->depreciation()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:24:58 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:25:39 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_prod...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(92): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(2180): App\Models\supplie_model->getProduct(NULL, NULL, NULL)
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->list_registration_depreciation()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:25:42 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_prod...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(92): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(2180): App\Models\supplie_model->getProduct(NULL, NULL, NULL)
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->list_registration_depreciation()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:26:30 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(435): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(26): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:26:32 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT "sp_asse...', Array, false)
+#2 /var/www/html/app/Models/supplie_model.php(1408): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Supplies.php(1656): App\Models\supplie_model->getAsset(NULL, NULL)
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->depreciation()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 22:35:54 --> Call to a member function table() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Api->permissions()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 22:37:04 --> Call to a member function table() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Api->permissions()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 22:37:39 --> Call to a member function table() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Api->permissions()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 22:39:22 --> Call to a member function table() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Api->permissions()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 22:43:33 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Supplies.php on line 2306
+#0 /var/www/html/app/Controllers/Supplies.php(2306): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->report_registration_pdf('11')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 23:04:49 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Purchase.php on line 41
+#0 /var/www/html/app/Controllers/Purchase.php(41): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Purchase->report_form_purchase('6')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

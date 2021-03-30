@@ -1,0 +1,398 @@
+CRITICAL - 2021-01-29 15:32:40 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2718
+#0 /var/www/html/app/Controllers/Finance.php(2718): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_acceptpaymentpdf('657')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:35:55 --> Invalid file: fn/view_receiving_moneypdf.php
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/view_receivi...')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('fn/view_receivi...', Array, true)
+#2 /var/www/html/app/Controllers/Finance.php(2780): view('fn/view_receivi...', Array)
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-29 15:36:42 --> Invalid file: fn/view_receiving_moneypdf.php
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/view_receivi...')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('fn/view_receivi...', Array, true)
+#2 /var/www/html/app/Controllers/Finance.php(2780): view('fn/view_receivi...', Array)
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-29 15:37:04 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:39:37 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:40:56 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:41:47 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:41:59 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:45:16 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:46:03 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:46:16 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:46:26 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:46:40 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:46:45 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:47:19 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:48:10 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:48:27 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:48:39 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:48:53 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:49:42 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:51:39 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:52:29 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:52:52 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:52:57 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:54:08 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:57:31 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2813
+#0 /var/www/html/app/Controllers/Finance.php(2813): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_depositpdf('4')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 15:58:58 --> Invalid file: fn/view_depositpdf.php
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/view_deposit...')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('fn/view_deposit...', Array, true)
+#2 /var/www/html/app/Controllers/Finance.php(2810): view('fn/view_deposit...', Array)
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_depositpdf('4')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-29 16:00:05 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2813
+#0 /var/www/html/app/Controllers/Finance.php(2813): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_depositpdf('4')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:01:14 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2813
+#0 /var/www/html/app/Controllers/Finance.php(2813): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_depositpdf('4')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:01:36 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2813
+#0 /var/www/html/app/Controllers/Finance.php(2813): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_depositpdf('4')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:03:09 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2813
+#0 /var/www/html/app/Controllers/Finance.php(2813): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_depositpdf('4')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:03:25 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2813
+#0 /var/www/html/app/Controllers/Finance.php(2813): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_depositpdf('4')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:05:37 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2813
+#0 /var/www/html/app/Controllers/Finance.php(2813): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_depositpdf('4')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:06:20 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2813
+#0 /var/www/html/app/Controllers/Finance.php(2813): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_depositpdf('4')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:06:42 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2813
+#0 /var/www/html/app/Controllers/Finance.php(2813): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_depositpdf('4')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:06:55 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 3155
+#0 /var/www/html/app/Controllers/Finance.php(3155): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_print_check_paypdf('4')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:07:55 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2813
+#0 /var/www/html/app/Controllers/Finance.php(2813): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_depositpdf('4')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:08:08 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2813
+#0 /var/www/html/app/Controllers/Finance.php(2813): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_depositpdf('3')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:10:06 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2843
+#0 /var/www/html/app/Controllers/Finance.php(2843): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_withdrawpdf('2')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:10:52 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2843
+#0 /var/www/html/app/Controllers/Finance.php(2843): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_withdrawpdf('2')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:11:29 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2843
+#0 /var/www/html/app/Controllers/Finance.php(2843): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_withdrawpdf('2')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:11:45 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2843
+#0 /var/www/html/app/Controllers/Finance.php(2843): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_withdrawpdf('2')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:12:43 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:17:37 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2718
+#0 /var/www/html/app/Controllers/Finance.php(2718): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_acceptpaymentpdf('657')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:18:26 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:24:41 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:28:29 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 3228
+#0 /var/www/html/app/Controllers/Finance.php(3228): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_print_check_paypdf('4')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:35:26 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2718
+#0 /var/www/html/app/Controllers/Finance.php(2718): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_acceptpaymentpdf('3')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:56:12 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('8')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:57:10 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('2')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:57:52 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('9')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 16:58:11 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('9')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 17:00:59 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('2')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 17:01:02 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('3')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 17:01:27 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('2')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-29 17:01:36 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2783
+#0 /var/www/html/app/Controllers/Finance.php(2783): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_receiving_moneypdf('3')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

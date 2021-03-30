@@ -1,0 +1,33 @@
+CRITICAL - 2020-10-20 01:55:16 --> Unable to connect to the database.
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO "fn...', Array, false)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Models\account_model.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Account.php(25): App\Models\account_model->addGeneralJournal(Array)
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Account->generaljournal()
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#6 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#9 {main}
+CRITICAL - 2020-10-20 21:25:04 --> Unable to connect to the database.
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Models\finance_model.php(22): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php(375): App\Models\finance_model->getAcceptPayment()
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->list_receiving_money()
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#6 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#9 {main}
+CRITICAL - 2020-10-20 21:25:08 --> Unable to connect to the database.
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Models\finance_model.php(22): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php(375): App\Models\finance_model->getAcceptPayment()
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->list_receiving_money()
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#6 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#9 {main}

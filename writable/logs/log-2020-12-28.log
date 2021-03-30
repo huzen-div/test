@@ -1,0 +1,206 @@
+CRITICAL - 2020-12-28 00:27:12 --> Undefined variable: id
+#0 /var/www/html/app/Views/ac/edit_debtor.php(232): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/a...', 232, Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('ac/edit_debtor', Array, true)
+#3 /var/www/html/app/Controllers/Account.php(1167): view('ac/edit_debtor')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account->edit_debtor('10')
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-28 00:27:14 --> Undefined variable: id
+#0 /var/www/html/app/Views/ac/edit_debtor.php(232): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/a...', 232, Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('ac/edit_debtor', Array, true)
+#3 /var/www/html/app/Controllers/Account.php(1167): view('ac/edit_debtor')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account->edit_debtor('10')
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-28 00:27:19 --> Undefined variable: id
+#0 /var/www/html/app/Views/ac/edit_debtor.php(232): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/a...', 232, Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('ac/edit_debtor', Array, true)
+#3 /var/www/html/app/Controllers/Account.php(1167): view('ac/edit_debtor')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account->edit_debtor('25')
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-28 00:28:03 --> Undefined variable: id
+#0 /var/www/html/app/Views/ac/edit_debtor.php(232): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/a...', 232, Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('ac/edit_debtor', Array, true)
+#3 /var/www/html/app/Controllers/Account.php(1167): view('ac/edit_debtor')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account->edit_debtor('10')
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-28 00:31:28 --> Undefined index: payment_amount
+#0 /var/www/html/app/Views/fn/list_acceptpayment_mon.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/a...', 155, Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('fn/list_acceptp...', Array, true)
+#3 /var/www/html/app/Controllers/Finance.php(2398): view('fn/list_acceptp...')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->list_acceptpayment_mon()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-28 00:32:47 --> Undefined index: payment_amount
+#0 /var/www/html/app/Views/fn/list_acceptpayment_mon.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/a...', 155, Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('fn/list_acceptp...', Array, true)
+#3 /var/www/html/app/Controllers/Finance.php(2398): view('fn/list_acceptp...')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->list_acceptpayment_mon()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-28 06:27:29 --> Call to undefined method CodeIgniter\Session\Session::destry()
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Login->logout()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-28 06:37:12 --> pg_query(): Query failed: ERROR:  date/time field value out of range: &quot;31-12-2563&quot;
+LINE 4: AND &quot;date&quot; &lt;= '31-12-2563'
+                      ^
+HINT:  Perhaps you need a different &quot;datestyle&quot; setting.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/v...', 196, Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(196): pg_query(Resource id #191, 'SELECT *\nFROM "...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 /var/www/html/app/Models/finance_model.php(690): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/html/app/Controllers/Finance.php(265): App\Models\finance_model->getDatePayByDate('01-12-2563', '31-12-2563')
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->actions_datepay()
+#8 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#9 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-12-28 06:39:55 --> Undefined variable: endmo
+#0 /var/www/html/app/Models/finance_model.php(685): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/a...', 685, Array)
+#1 /var/www/html/app/Controllers/Finance.php(265): App\Models\finance_model->getDatePayByDate('01-12-2563', '31-12-2563')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->actions_datepay()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-28 06:40:13 --> pg_query(): Query failed: ERROR:  date/time field value out of range: &quot;31-12-2020&quot;
+LINE 3: WHERE &quot;date&quot; &gt;= '31-12-2020'
+                        ^
+HINT:  Perhaps you need a different &quot;datestyle&quot; setting.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/v...', 196, Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(196): pg_query(Resource id #191, 'SELECT *\nFROM "...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 /var/www/html/app/Models/finance_model.php(699): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/html/app/Controllers/Finance.php(265): App\Models\finance_model->getDatePayByDate('31-12-2020', '31-12-2563')
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->actions_datepay()
+#8 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#9 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-12-28 06:41:19 --> pg_query(): Query failed: ERROR:  date/time field value out of range: &quot;31-12-2563&quot;
+LINE 4: AND &quot;date&quot; &lt;= '31-12-2563'
+                      ^
+HINT:  Perhaps you need a different &quot;datestyle&quot; setting.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/v...', 196, Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(196): pg_query(Resource id #191, 'SELECT *\nFROM "...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 /var/www/html/app/Models/finance_model.php(699): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/html/app/Controllers/Finance.php(265): App\Models\finance_model->getDatePayByDate('2020-12-31', '31-12-2563')
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->actions_datepay()
+#8 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#9 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-12-28 06:41:59 --> pg_query(): Query failed: ERROR:  date/time field value out of range: &quot;31-01-2564&quot;
+LINE 4: AND &quot;date&quot; &lt;= '31-01-2564'
+                      ^
+HINT:  Perhaps you need a different &quot;datestyle&quot; setting.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/v...', 196, Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(196): pg_query(Resource id #191, 'SELECT *\nFROM "...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 /var/www/html/app/Models/finance_model.php(699): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/html/app/Controllers/Finance.php(265): App\Models\finance_model->getDatePayByDate('2021-01-31', '31-01-2564')
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->actions_datepay()
+#8 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#9 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-12-28 06:47:08 --> pg_query(): Query failed: ERROR:  column &quot;datex&quot; does not exist
+LINE 3: WHERE &quot;datex&quot; &gt;= '2020-12-21'
+              ^
+HINT:  Perhaps you meant to reference the column &quot;fn_billing.date&quot;.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/v...', 196, Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(196): pg_query(Resource id #191, 'SELECT *\nFROM "...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 /var/www/html/app/Models/finance_model.php(888): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/html/app/Controllers/Finance.php(1147): App\Models\finance_model->getBillingByDate('2020-12-21', '2020-12-31')
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->actions_billing()
+#8 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#9 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-12-28 06:54:32 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::getLastQuery()
+#0 /var/www/html/app/Controllers/Finance.php(265): App\Models\finance_model->getDatePayByDate('2020-12-14', '2020-12-31')
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->actions_datepay()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-28 06:54:50 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::getLastQuery()
+#0 /var/www/html/app/Controllers/Finance.php(265): App\Models\finance_model->getDatePayByDate('2020-12-28', '2020-12-31')
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->actions_datepay()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-28 06:57:30 --> Undefined index: name
+#0 /var/www/html/app/Views/fn/list_datepay.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/a...', 60, Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('fn/list_datepay', Array, true)
+#3 /var/www/html/app/Controllers/Finance.php(269): view('fn/list_datepay')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->actions_datepay()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-28 11:14:05 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2334
+#0 /var/www/html/app/Controllers/Finance.php(2334): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_acceptpaymentpdf('13')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-28 11:20:21 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2334
+#0 /var/www/html/app/Controllers/Finance.php(2334): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_acceptpaymentpdf('13')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-28 11:35:26 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2334
+#0 /var/www/html/app/Controllers/Finance.php(2334): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_acceptpaymentpdf('13')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-28 15:42:30 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2334
+#0 /var/www/html/app/Controllers/Finance.php(2334): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_acceptpaymentpdf('13')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

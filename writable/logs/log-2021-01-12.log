@@ -1,0 +1,270 @@
+CRITICAL - 2021-01-12 10:15:29 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/sp/product.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 19, Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('sp/product', Array, true)
+#3 /var/www/html/app/Controllers/Supplies.php(55): view('sp/product')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-12 11:07:36 --> Call to a member function getpath() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-12 11:08:11 --> Call to a member function getpath() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-12 11:08:15 --> Call to a member function getpath() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-12 11:08:26 --> Call to a member function getpath() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-12 11:08:30 --> Call to a member function getpath() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-12 11:08:54 --> Call to a member function getpath() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-12 11:08:56 --> Call to a member function getpath() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-12 11:09:10 --> Call to a member function getpath() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-12 11:09:58 --> Call to a member function getpath() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-12 11:10:26 --> Call to a member function getpath() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-12 11:10:40 --> Call to a member function getpath() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-12 11:11:06 --> Call to a member function getpath() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-12 11:11:59 --> Call to a member function getpath() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-12 11:12:28 --> Call to a member function getpath() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-12 11:12:49 --> Call to a member function getpath() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-12 11:13:01 --> Call to a member function getpath() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-12 11:13:08 --> Call to a member function getpath() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-12 11:21:39 --> Call to a member function getpath() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-12 11:22:22 --> Call to a member function getpath() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-12 11:22:25 --> Call to a member function getpath() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-12 11:39:03 --> Invalid file: sp/edit_product.php
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sp/edit_product...')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('sp/edit_product', Array, true)
+#2 /var/www/html/app/Controllers/Supplies.php(127): view('sp/edit_product')
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->edit_product('1')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-12 11:43:20 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/sp/edit_product.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 17, Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('sp/edit_product', Array, true)
+#3 /var/www/html/app/Controllers/Supplies.php(127): view('sp/edit_product')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->edit_product('1')
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-12 12:59:20 --> Invalid file: sp/supplies.php
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sp/supplies.php')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('sp/supplies', Array, true)
+#2 /var/www/html/app/Controllers/Supplies.php(179): view('sp/supplies')
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->supplies()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-12 13:15:46 --> Invalid file: sp/edit_supplies.php
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sp/edit_supplie...')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('sp/edit_supplie...', Array, true)
+#2 /var/www/html/app/Controllers/Supplies.php(197): view('sp/edit_supplie...')
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->edit_supplies('1')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-12 15:09:05 --> Invalid file: st/tax_rate.php
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('st/tax_rate.php')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('st/tax_rate', Array, true)
+#2 /var/www/html/app/Controllers/Setting.php(80): view('st/tax_rate')
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Setting->tax_rate()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-12 15:26:54 --> Invalid file: st/edit_tax_rate.php
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('st/edit_tax_rat...')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('st/edit_tax_rat...', Array, true)
+#2 /var/www/html/app/Controllers/Setting.php(113): view('st/edit_tax_rat...')
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Setting->edit_tax_rate('2')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-12 15:29:19 --> Too few arguments to function App\Controllers\Setting::edit_tax_rate(), 0 passed in /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php on line 918 and exactly 1 expected
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Setting->edit_tax_rate()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-12 16:13:17 --> Invalid file: st/list_unit.php
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('st/list_unit.ph...')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('st/list_unit', Array, true)
+#2 /var/www/html/app/Controllers/Setting.php(135): view('st/list_unit')
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Setting->list_unit()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-12 16:32:41 --> Invalid file: st/unit.php
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('st/unit.php')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('st/unit', Array, true)
+#2 /var/www/html/app/Controllers/Setting.php(156): view('st/unit')
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Setting->unit()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-12 16:32:54 --> Invalid file: st/unit.php
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('st/unit.php')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('st/unit', Array, true)
+#2 /var/www/html/app/Controllers/Setting.php(156): view('st/unit')
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Setting->unit()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-12 16:32:55 --> Invalid file: st/unit.php
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('st/unit.php')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('st/unit', Array, true)
+#2 /var/www/html/app/Controllers/Setting.php(156): view('st/unit')
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Setting->unit()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-12 16:32:57 --> Invalid file: st/unit.php
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('st/unit.php')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('st/unit', Array, true)
+#2 /var/www/html/app/Controllers/Setting.php(156): view('st/unit')
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Setting->unit()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-12 16:32:57 --> Invalid file: st/unit.php
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('st/unit.php')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('st/unit', Array, true)
+#2 /var/www/html/app/Controllers/Setting.php(156): view('st/unit')
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Setting->unit()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-12 16:32:57 --> Invalid file: st/unit.php
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('st/unit.php')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('st/unit', Array, true)
+#2 /var/www/html/app/Controllers/Setting.php(156): view('st/unit')
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Setting->unit()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-12 17:39:00 --> Invalid file: st/edit_unit.php
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('st/edit_unit.ph...')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('st/edit_unit', Array, true)
+#2 /var/www/html/app/Controllers/Setting.php(178): view('st/edit_unit')
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Setting->edit_unit('1')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-12 17:40:32 --> Too few arguments to function App\Models\supplie_model::editUnit(), 1 passed in /var/www/html/app/Controllers/Setting.php on line 170 and exactly 2 expected
+#0 /var/www/html/app/Controllers/Setting.php(170): App\Models\supplie_model->editUnit(Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Setting->edit_unit('1')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

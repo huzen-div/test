@@ -1,0 +1,120 @@
+CRITICAL - 2021-01-11 16:36:07 --> Call to a member function getProduct() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-11 16:36:08 --> Call to a member function getProduct() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-11 16:36:40 --> Call to a member function getProduct() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-11 16:36:46 --> Call to a member function getProduct() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-11 16:37:45 --> Call to a member function getProduct() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-11 16:37:46 --> Call to a member function getProduct() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-11 16:37:46 --> Call to a member function getProduct() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-11 16:37:46 --> Call to a member function getProduct() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-11 16:37:46 --> Call to a member function getProduct() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-11 16:41:06 --> Call to a member function getProduct() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-11 16:41:07 --> Call to a member function getProduct() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-11 16:43:48 --> Call to a member function getProduct() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-11 16:44:12 --> Call to a member function getProduct() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-11 16:44:13 --> Call to a member function getProduct() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-11 16:44:13 --> Call to a member function getProduct() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-11 16:44:13 --> Call to a member function getProduct() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-11 16:44:31 --> Call to a member function getProduct() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-11 16:44:38 --> Call to a member function getProduct() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-11 16:45:19 --> Call to a member function getProduct() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-11 16:45:54 --> Call to a member function getReceiveMoney() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->product()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

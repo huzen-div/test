@@ -1,0 +1,286 @@
+CRITICAL - 2021-01-27 01:33:04 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /var/www/html/app/Controllers/Finance.php on line 2395
+#0 /var/www/html/app/Controllers/Finance.php(2395): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->view_acceptpaymentpdf('618')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 10:47:17 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(1222): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Finance.php(2667): App\Models\finance_model->getPrintcheckpay()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->print_check_pay()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-27 10:47:25 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(1222): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Finance.php(2667): App\Models\finance_model->getPrintcheckpay()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->print_check_pay()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-27 10:47:29 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(1222): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Finance.php(2667): App\Models\finance_model->getPrintcheckpay()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->print_check_pay()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-27 10:47:32 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(1222): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Finance.php(2667): App\Models\finance_model->getPrintcheckpay()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->print_check_pay()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-27 10:47:37 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(1222): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Finance.php(2667): App\Models\finance_model->getPrintcheckpay()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->print_check_pay()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-27 10:47:43 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(1222): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Finance.php(2667): App\Models\finance_model->getPrintcheckpay()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->print_check_pay()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-27 10:47:47 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(1222): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Finance.php(2667): App\Models\finance_model->getPrintcheckpay()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->print_check_pay()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-27 10:47:52 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(368): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(25): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-27 10:49:07 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(368): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(25): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-27 10:49:07 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(1222): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Finance.php(2667): App\Models\finance_model->getPrintcheckpay()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->print_check_pay()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-27 10:49:15 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(368): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(25): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-27 10:49:57 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT SUM("amo...', Array, false)
+#2 /var/www/html/app/Models/finance_model.php(368): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/Home.php(25): App\Models\finance_model->sumPayoffDebt()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-27 13:37:26 --> Invalid file: fn/edit_print_check_pay.php
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fn/edit_print_c...')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('fn/edit_print_c...', Array, true)
+#2 /var/www/html/app/Controllers/Finance.php(2706): view('fn/edit_print_c...')
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->edit_print_check_pay('3')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-27 17:01:51 --> Too few arguments to function App\Models\finance_model::getPayoffDebt(), 0 passed in /var/www/html/app/Controllers/Home.php on line 37 and exactly 3 expected
+#0 /var/www/html/app/Controllers/Home.php(37): App\Models\finance_model->getPayoffDebt()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 17:02:37 --> Too few arguments to function App\Models\finance_model::getPayoffDebt(), 0 passed in /var/www/html/app/Controllers/Home.php on line 37 and exactly 3 expected
+#0 /var/www/html/app/Controllers/Home.php(37): App\Models\finance_model->getPayoffDebt()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 17:02:43 --> Too few arguments to function App\Models\finance_model::getPayoffDebt(), 0 passed in /var/www/html/app/Controllers/Home.php on line 37 and exactly 3 expected
+#0 /var/www/html/app/Controllers/Home.php(37): App\Models\finance_model->getPayoffDebt()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 17:02:44 --> Too few arguments to function App\Models\finance_model::getPayoffDebt(), 0 passed in /var/www/html/app/Controllers/Finance.php on line 1447 and exactly 3 expected
+#0 /var/www/html/app/Controllers/Finance.php(1447): App\Models\finance_model->getPayoffDebt()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->list_payoffdebt()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 17:02:44 --> Too few arguments to function App\Models\finance_model::getPayoffDebt(), 0 passed in /var/www/html/app/Controllers/Home.php on line 37 and exactly 3 expected
+#0 /var/www/html/app/Controllers/Home.php(37): App\Models\finance_model->getPayoffDebt()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 17:02:45 --> Too few arguments to function App\Models\finance_model::getPayoffDebt(), 0 passed in /var/www/html/app/Controllers/Finance.php on line 1447 and exactly 3 expected
+#0 /var/www/html/app/Controllers/Finance.php(1447): App\Models\finance_model->getPayoffDebt()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->list_payoffdebt()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 17:02:46 --> Too few arguments to function App\Models\finance_model::getPayoffDebt(), 0 passed in /var/www/html/app/Controllers/Finance.php on line 1447 and exactly 3 expected
+#0 /var/www/html/app/Controllers/Finance.php(1447): App\Models\finance_model->getPayoffDebt()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->list_payoffdebt()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 17:02:47 --> Too few arguments to function App\Models\finance_model::getPayoffDebt(), 0 passed in /var/www/html/app/Controllers/Finance.php on line 1052 and exactly 3 expected
+#0 /var/www/html/app/Controllers/Finance.php(1052): App\Models\finance_model->getPayoffDebt()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->list_overdue()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 17:02:51 --> Too few arguments to function App\Models\finance_model::getPayoffDebt(), 0 passed in /var/www/html/app/Controllers/Finance.php on line 1052 and exactly 3 expected
+#0 /var/www/html/app/Controllers/Finance.php(1052): App\Models\finance_model->getPayoffDebt()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->list_overdue()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 17:03:05 --> Too few arguments to function App\Models\finance_model::getPayoffDebt(), 0 passed in /var/www/html/app/Controllers/Finance.php on line 1052 and exactly 3 expected
+#0 /var/www/html/app/Controllers/Finance.php(1052): App\Models\finance_model->getPayoffDebt()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->list_overdue()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 17:03:16 --> Too few arguments to function App\Models\finance_model::getPayoffDebt(), 0 passed in /var/www/html/app/Controllers/Home.php on line 37 and exactly 3 expected
+#0 /var/www/html/app/Controllers/Home.php(37): App\Models\finance_model->getPayoffDebt()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 17:03:19 --> Too few arguments to function App\Models\finance_model::getPayoffDebt(), 0 passed in /var/www/html/app/Controllers/Finance.php on line 1447 and exactly 3 expected
+#0 /var/www/html/app/Controllers/Finance.php(1447): App\Models\finance_model->getPayoffDebt()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->list_payoffdebt()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 17:03:21 --> Too few arguments to function App\Models\finance_model::getPayoffDebt(), 0 passed in /var/www/html/app/Controllers/Finance.php on line 1447 and exactly 3 expected
+#0 /var/www/html/app/Controllers/Finance.php(1447): App\Models\finance_model->getPayoffDebt()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->list_payoffdebt()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 17:03:24 --> Too few arguments to function App\Models\finance_model::getPayoffDebt(), 0 passed in /var/www/html/app/Controllers/Home.php on line 37 and exactly 3 expected
+#0 /var/www/html/app/Controllers/Home.php(37): App\Models\finance_model->getPayoffDebt()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 17:03:24 --> Too few arguments to function App\Models\finance_model::getPayoffDebt(), 0 passed in /var/www/html/app/Controllers/Home.php on line 37 and exactly 3 expected
+#0 /var/www/html/app/Controllers/Home.php(37): App\Models\finance_model->getPayoffDebt()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 17:03:25 --> Too few arguments to function App\Models\finance_model::getPayoffDebt(), 0 passed in /var/www/html/app/Controllers/Home.php on line 37 and exactly 3 expected
+#0 /var/www/html/app/Controllers/Home.php(37): App\Models\finance_model->getPayoffDebt()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 17:03:25 --> Too few arguments to function App\Models\finance_model::getPayoffDebt(), 0 passed in /var/www/html/app/Controllers/Home.php on line 37 and exactly 3 expected
+#0 /var/www/html/app/Controllers/Home.php(37): App\Models\finance_model->getPayoffDebt()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 17:03:26 --> Too few arguments to function App\Models\finance_model::getPayoffDebt(), 0 passed in /var/www/html/app/Controllers/Home.php on line 37 and exactly 3 expected
+#0 /var/www/html/app/Controllers/Home.php(37): App\Models\finance_model->getPayoffDebt()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 17:03:30 --> Too few arguments to function App\Models\finance_model::getPayoffDebt(), 0 passed in /var/www/html/app/Controllers/Home.php on line 37 and exactly 3 expected
+#0 /var/www/html/app/Controllers/Home.php(37): App\Models\finance_model->getPayoffDebt()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 17:03:42 --> Too few arguments to function App\Models\finance_model::getPayoffDebt(), 0 passed in /var/www/html/app/Controllers/Home.php on line 37 and exactly 3 expected
+#0 /var/www/html/app/Controllers/Home.php(37): App\Models\finance_model->getPayoffDebt()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 17:08:27 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 /var/www/html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

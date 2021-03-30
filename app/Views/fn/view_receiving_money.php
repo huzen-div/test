@@ -1,0 +1,89 @@
+<div class="table-responsive">
+    <table class="table table-borderless table-striped dfTable table-right-left">
+        <tbody>
+            <?php foreach ($data as $x) : ?>
+                <tr>
+                    <td>ลำดับ :</td>
+                    <td><?php echo $x['id']; ?></td>
+                </tr>
+                <tr>
+                    <td>รหัสสมาชิก :</td>
+                    <td><?php echo 'MOPH-'.sprintf('%07d', $x['customer_id']); ?></td>
+
+                </tr>
+                <tr>
+                    <td>เลขที่เอกสาร :</td>
+                    <td><?php echo $x['bill_id']; ?></td>
+
+                </tr>
+                <tr>
+                    <td>รหัสพนักงาน :</td>
+                    <td><?php echo $x['employee_id']; ?></td>
+                </tr>
+                <tr>
+                    <td>เครดิต(วัน) :</td>
+                    <td><?php echo $x['unit_id']; ?></td>
+                </tr>
+                <tr>
+                    <td>วันที่วางบิล :</td>
+                    <td>
+                            <!-- <?php echo thaidate(date('d/m/Y', strtotime($x['bill_date']))); ?> -->
+                        <?php echo date('d/m/Y',strtotime($x['bill_date'])); ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>กลุ่มลูกค้า :</td>
+                    <td><?php echo $x['group_id']; ?></td>
+                </tr>
+                <tr>
+                    <td>วันนัดรับชำระ :</td>
+                    <td>
+                            <!-- <?php echo thaidate(date('d/m/Y', strtotime($x['receive_date']))); ?> -->
+                        <?php echo date('d/m/Y',strtotime($x['receive_date'])); ?>
+                </td>
+                </tr>
+                <tr>
+                    <td>ผู้ติดต่อ :</td>
+                    <td><?php echo $x['contact']; ?></td>
+                </tr>
+                <tr>
+                    <td>สถานะ :</td>
+                    <td><?php echo $x['status_id']; ?></td>
+                </tr>
+                <tr>
+                    <td>เงื่อนไขเพิ่มเติม :</td>
+                    <td><?php echo $x['additional_conditions']; ?></td>
+                </tr>
+                <tr>
+                    <td>หมายเหตุ :</td>
+                    <td><?php echo $x['note']; ?></td>
+                </tr>
+                <tr>
+                    <td>ยกเลิกใบวางบิล :</td>
+                    <td><?php echo $x['cancel_bill'] == 1 ? 'ยกเลิกใบวางบิล' : 'ไม่ยกเลิกใบวางบิล'; ?></td>
+                </tr>
+            <?php endforeach; ?>
+        </tbody>
+    </table>
+</div>
+<div class="col-md-12" style="text-align: center;">
+    <input type="button" class="btn btn-primary " onclick="history.go(-1);" value="ย้อนกลับ" />
+</div>
+
+
+<!--<div class="col-md-12" style="text-align: center;">
+    <div class="buttons">
+        <div class="btn-group btn-group-justified ">
+            <div class="btn-group">
+                <a href="" class="tip btn btn-warning tip btn-lg " title="แก้ไข">
+                    <i class="fa fa-edit"></i> <span class="hidden-sm hidden-xs">แก้ไข</span>
+                </a>
+            </div>
+            <div class="btn-group">
+                <a href="" class="tip btn btn-danger tip btn-lg " title="ลบ">
+                    <i class="fa fa-trash"></i> <span class="hidden-sm hidden-xs">ลบ</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>-->

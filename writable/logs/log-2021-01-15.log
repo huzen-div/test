@@ -1,0 +1,64 @@
+CRITICAL - 2021-01-15 14:01:09 --> Cannot redeclare App\Controllers\Finance::list_overdue()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-15 17:17:27 --> Could not move file phpzsPAr8 to /var/www/html/public/files/import/ ()
+#0 /var/www/html/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(187): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpzsPAr8', '/var/www/html/p...', '')
+#1 /var/www/html/app/Controllers/Finance.php(2548): CodeIgniter\HTTP\Files\UploadedFile->move('/var/www/html/p...', '1610705847_f3a6...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->import_billing()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 17:18:14 --> Could not move file phpwOyS2V to /var/www/html/public/files/import/ ()
+#0 /var/www/html/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(187): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpwOyS2V', '/var/www/html/p...', '')
+#1 /var/www/html/app/Controllers/Finance.php(2548): CodeIgniter\HTTP\Files\UploadedFile->move('/var/www/html/p...', '1610705894_3670...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->import_billing()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 17:19:53 --> Could not move file phpzPDT5P to /var/www/html/public/files/import/ ()
+#0 /var/www/html/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(187): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpzPDT5P', '/var/www/html/p...', '')
+#1 /var/www/html/app/Controllers/Finance.php(2549): CodeIgniter\HTTP\Files\UploadedFile->move('/var/www/html/p...', '1610705993_bfa9...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->import_billing()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 17:20:14 --> Could not move file phpVtVdev to /var/www/html/public/files/import/ ()
+#0 /var/www/html/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(187): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpVtVdev', '/var/www/html/p...', '')
+#1 /var/www/html/app/Controllers/Finance.php(2549): CodeIgniter\HTTP\Files\UploadedFile->move('/var/www/html/p...', '1610706014_2ffc...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->import_billing()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 17:21:16 --> Could not move file php8p4Aq2 to /var/www/html/public/files/import/ ()
+#0 /var/www/html/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(187): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php8p4Aq2', '/var/www/html/p...', '')
+#1 /var/www/html/app/Controllers/Finance.php(2548): CodeIgniter\HTTP\Files\UploadedFile->move('/var/www/html/p...', '1610706076_458a...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->import_billing()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 18:10:18 --> No reader found for type csv
+#0 /var/www/html/app/Controllers/Finance.php(2527): PhpOffice\PhpSpreadsheet\IOFactory::createReader('csv')
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->import_billing()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-15 18:11:15 --> No reader found for type csv
+#0 /var/www/html/app/Controllers/Finance.php(2527): PhpOffice\PhpSpreadsheet\IOFactory::createReader('csv')
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->import_billing()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-15 18:11:57 --> No reader found for type csv
+#0 /var/www/html/app/Controllers/Finance.php(2527): PhpOffice\PhpSpreadsheet\IOFactory::createReader('csv')
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Finance->import_billing()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

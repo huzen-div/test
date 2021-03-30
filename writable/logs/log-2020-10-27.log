@@ -1,0 +1,22 @@
+CRITICAL - 2020-10-27 02:37:28 --> Unable to connect to the database.
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Models\finance_model.php(22): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php(387): App\Models\finance_model->getAcceptPayment()
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->list_acceptpayment_mon()
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#6 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#9 {main}
+CRITICAL - 2020-10-27 22:18:40 --> Unable to connect to the database.
+#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 C:\Users\kanoot\Desktop\ณกส\app\Models\finance_model.php(22): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php(377): App\Models\finance_model->getAcceptPayment()
+#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->list_acceptpayment()
+#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+#6 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
+#9 {main}

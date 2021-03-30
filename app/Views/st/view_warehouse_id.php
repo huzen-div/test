@@ -1,0 +1,56 @@
+<div class="modal-header">
+    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-window-close"></i></button>-->
+    <h4 class="modal-title" id="myModalLabel">
+        <center><?= $title ?></center>
+    </h4>
+</div>
+<div class="modal-body">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="table-responsive">
+                <table class="table table-borderless table-striped dfTable table-right-left">
+                    <tbody>
+                        <?php foreach ($data as $x) : ?>
+                            <tr>
+                                <td>ลำดับ :</td>
+                                <td><?php echo $x['id']; ?></td>
+                            </tr>
+                            <tr>
+                                <td>ชื่อ :</td>
+                                <td><?php echo $x['name']; ?></td>
+                            </tr>
+                            <tr>
+                                <td>โทรศัพท์ :</td>
+                                <td><?php echo $x['tel']; ?></td>
+                            </tr>
+                            <tr>
+                                <td>อีเมลล์ :</td>
+                                <td><?php echo $x['email']; ?></td>
+                            </tr>
+                            <tr>
+                                <td>ที่อยู่ :</td>
+                                <td> <?php echo $x['address']; ?> </td>
+                            </tr>
+                            <tr>
+                                <td>แผนที่ :</td>
+                                <td style="width: 150px;">
+                                    <?php if ($x['map'] != null) { ?>
+                                        <a title="<?php echo $x['name']; ?>" href="<?= base_url('files') . '/' . $x['map'] ?>" target="_blank">
+                                            <img src="<?= base_url('files') . '/' . $x['map'] ?>" alt="image" class="imgdeb_pre">
+                                        </a>
+                                    <?php } else { ?>
+                                        <img src="<?= base_url('files') . '/noimages.png' ?>" alt="image" class="imgdeb_pre">
+
+                                    <?php } ?>
+                                </td>
+                            </tr>
+                        <?php endforeach; ?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-success" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i> ปิดหน้าต่าง</button>
+</div>

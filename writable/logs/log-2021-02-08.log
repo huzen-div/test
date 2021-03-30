@@ -1,0 +1,9 @@
+CRITICAL - 2021-02-08 13:15:16 --> Class 'Picqer\Barcode\Types\TypeCode128' not found
+#0 /var/www/html/app/ThirdParty/php-barcode-generator/src/BarcodeGenerator.php(99): Picqer\Barcode\BarcodeGenerator->createDataBuilderForType('C128')
+#1 /var/www/html/app/ThirdParty/php-barcode-generator/src/BarcodeGeneratorHTML.php(19): Picqer\Barcode\BarcodeGenerator->getBarcodeData('000001', 'C128')
+#2 /var/www/html/app/Controllers/Supplies.php(1363): Picqer\Barcode\BarcodeGeneratorHTML->getBarcode('000001', 'C128', 2, 50)
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Supplies->print_barcode('5')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplies))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

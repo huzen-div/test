@@ -1,0 +1,12 @@
+version: "2"
+services:
+  chapanakij-finance:
+    image: docker.pkg.github.com/chapanakij/cpk-web/finance:develop
+    network_mode: apparatus
+    container_name: chapanakij-finance
+    # volumes:
+    #   - /home/apparatus/miniodata/finance:/var/www/html
+    expose:
+      - 80
+    external_links:
+      - postgres

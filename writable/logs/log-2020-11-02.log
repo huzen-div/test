@@ -1,7 +1,0 @@
-CRITICAL - 2020-11-02 01:47:50 --> Call to a member function getReceiveMoney() on null
-#0 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Account->test()
-#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
-#2 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#3 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
-#4 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
-#5 {main}

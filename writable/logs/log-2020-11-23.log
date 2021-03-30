@@ -1,8 +1,0 @@
-CRITICAL - 2020-11-23 22:08:51 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php on line 63
-#0 C:\Users\kanoot\Desktop\ณกส\app\Controllers\Finance.php(63): CodeIgniter\HTTP\RedirectResponse->to(NULL)
-#1 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Finance->actions_receiving_money()
-#2 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
-#3 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\Users\kanoot\Desktop\ณกส\public\index.php(45): CodeIgniter\CodeIgniter->run()
-#5 C:\Users\kanoot\Desktop\ณกส\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\kanoot...')
-#6 {main}

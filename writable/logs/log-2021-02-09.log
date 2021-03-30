@@ -1,7 +1,0 @@
-CRITICAL - 2021-02-09 13:57:33 --> syntax error, unexpected '}'
-#0 /var/www/html/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('account/list_ge...')
-#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('account/list_ge...')
-#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
-#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
-#5 {main}
